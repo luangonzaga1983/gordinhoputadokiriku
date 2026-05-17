@@ -14,5 +14,6 @@ export type GameData = {
   currentTurn: number;
   turnOrder: string[];
   hostId: string;
+  roomCode: string;
   createdAt: number;
 };
